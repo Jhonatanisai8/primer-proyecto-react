@@ -5,11 +5,18 @@ import { SegundoComponente } from "./01-variables/SegundoComponente";
 import { ComponenteVariables } from "./01-variables/ComponenteVariables";
 // importamos los estilos css
 import "./styles.css";
-import "./01-variables/PrimerComponente.css"
+import "./01-variables/PrimerComponente.css";
+import { Props } from "./02-props/Props";
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     {/* <SegundoComponente /> */}
-    <PrimerComponente />
+    {/* <PrimerComponente /> */}
     {/* <ComponenteVariables /> */}
+    <Props
+      titulo="Esta seccion es de props"
+      // subtitulo="Curso de React"
+      // numero={42}
+    />
   </StrictMode>
 );
