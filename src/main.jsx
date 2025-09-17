@@ -2,10 +2,12 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { PrimerComponente } from "./01-variables/PrimerComponente";
 import { SegundoComponente } from "./01-variables/SegundoComponente";
+import { ComponenteVariables } from "./01-variables/ComponenteVariables";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <SegundoComponente />
-    <PrimerComponente />
+    {/* <SegundoComponente /> */}
+    {/* <PrimerComponente /> */}
+    <ComponenteVariables />
   </StrictMode>
 );
